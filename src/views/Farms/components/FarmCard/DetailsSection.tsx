@@ -54,9 +54,9 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
         <Text>{TranslateString(316, 'Stake')}:</Text>
         <StyledLinkExternal href={
           isTokenOnly ?
-            `https://exchange.goosedefi.com/#/swap/${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
+            `https://pancakeswap.finance/swap/${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
             :
-          `https://exchange.goosedefi.com/#/add/${liquidityUrlPathParts}`
+          `https://pancakeswap.finance/add/${liquidityUrlPathParts}`
         }>
           {lpLabel}
         </StyledLinkExternal>
